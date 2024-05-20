@@ -1,0 +1,13 @@
+var friendsName = ["Aliya", "Mariyam", "Abida", "Sonia"];
+friendsName.forEach(function (friendname) { return console.log(friendname); });
+var friendname = ["Aliya", "Mariyam", "Abida", "Sonia"];
+friendname.forEach(function (friendName) { return -console.log("Hello ".concat(friendName, ",How are you?")); });
+var transportationModes = ["Bus", "Sportcar", "Bus", "Bike", "SportBike"];
+transportationModes.forEach(function (Mode) { return console.log("I Would like to own a ".concat(Mode)); });
+var guestList = ["Amna", "Sunbal", "Bushra", "Komal"];
+guestList.forEach(function (oneGuest) { return console.log("Salam ".concat(oneGuest, ",Would you like to dinner with me?")); });
+var guestlist = ["Amna", "Sunbal", "Bushra", "Komal"];
+var dontCome = guestlist[0];
+console.log(dontCome, "is not coming");
+guestlist.splice(0, 1, "Sajjida");
+guestlist.forEach(function (guest) { return console.log("Salam ".concat(guest, ",Would you like to Dinner with me?")); });
